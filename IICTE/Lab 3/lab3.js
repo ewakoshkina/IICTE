@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		  var ring = new THREE.Mesh (ringGeometry, ringMaterial);
 		  ring.position.set (x, y, z);
 		  ring.rotation.x = Math.PI / 2;
+		  scene.add (ring);
 		  rings.push (ring);
 		}
 
